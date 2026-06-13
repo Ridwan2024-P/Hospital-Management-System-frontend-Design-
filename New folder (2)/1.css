@@ -1,0 +1,119 @@
+.Header{
+	background-color:  #6a2364;
+}
+.navbar{
+	background-color: #6a2364;
+}
+
+.nav-item a{
+	font-size: 58px;
+	
+	color: #6a2364;
+}
+.navbar {
+	
+	padding: 15px 0;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+	height: 60px; /* Maintain consistency */
+}
+
+.navbar-nav .nav-link {
+	
+	font-size: 18px;
+	font-weight: 500;
+	padding: 8px 15px;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile Styles */
+.navbar-toggler {
+	border: none;
+	outline: none;
+	color: #6a2364;
+	
+}
+
+.navbar-toggler-icon {
+	filter: invert(1);
+}
+.navbar-nav .nav-link {
+    color: #6a2364 !important; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important; 
+    background-color: #6a2364 !important; 
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+/* Contact Info */
+.contact-info {
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.contact-info i {
+	margin-right: 5px;
+}
+
+@media (max-width: 991px) {
+	.navbar-nav {
+		text-align: center;
+		padding-top: 10px;
+	}
+	
+}
+.accordion-button:focus, 
+.accordion-button:not(.collapsed) {
+    background-color: #6a2364 !important;
+    color: white !important; 
+    box-shadow: none; 
+}
+footer a {
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #6a2364 !important;
+}
+  .product-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          
+			height: 280px;
+			border: solid 2px #6a2364;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+			height: 140px;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .product-price del {
+            color: gray;
+            font-size: 14px;
+        }
+
+
