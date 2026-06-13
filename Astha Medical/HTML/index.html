@@ -10,8 +10,7 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-	<link rel="stylesheet" href="1.css">
-    <link rel="stylesheet" href="Product.css">
+	<link rel="stylesheet" href="../CSS/1.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -23,35 +22,35 @@
 
 <body>
 
-   <div class="Header text-white py-2" style="background-color: #6a2364;">
-    <div class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center">
-            <!-- Left Side: Social Links -->
-            <div class="d-flex">
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-
-            <!-- Right Side: Contact Info -->
-            <div class="d-flex align-items-center">
-                <h6 class="mb-0 me-3">Contact Us</h6>
-                <h6 class="mb-0"><i class="fa fa-phone"></i> +880175699632</h6>
+	<div class="Header text-white py-2" style="background-color: #6a2364;">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <!-- Left Side: Social Links -->
+                <div class="d-flex">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+    
+                <!-- Right Side: Contact Info -->
+                <div class="d-flex align-items-center">
+                    <h6 class="mb-0 me-3">Contact Us</h6>
+                    <h6 class="mb-0"><i class="fa fa-phone"></i> +880175699632</h6>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
+    
     
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style=" color:#6a2364">
             <div class="container">
                 <a class="navbar-brand py-2" href="#">
-                    <img src="logo1.png" alt="Logo" height="80" width="180px">
+                    <img src="../Images/logo1.png" alt="Logo" height="80" width="180px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon" style="color: #6a2364;"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav w-100 d-flex justify-content-end">
@@ -59,7 +58,7 @@
                             <a class="nav-link me-4"href="index.html" style="color: #6a2364;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-4 " href="Product.html" style="color: #6a2364;">Products</a>
+                            <a class="nav-link me-4" href="Product.html" style="color: #6a2364;">Products</a>
                         </li>					
                         <li class="nav-item">
                             <a class="nav-link me-4" href="#" style="color: #6a2364;">About Us</a>
@@ -73,12 +72,34 @@
         </nav>
         
 
+	
 
 
 
 
 
-	 
+
+
+	  <div class=" position-relative" id="info-section">
+		
+	
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<!-- Text first on mobile -->
+				<div class="col-12 col-md-6 my-auto text-center info-content text-md-start order-1 order-md-2">
+					<h3 class="info-header fw-bolder  " style="color: #6a2364;" >আস্থা মেডিকেল - চিকিৎসা সেবার নির্ভরযোগ্য কেন্দ্র</h3>
+					<p class="info-text mt-3" >
+						আস্থা মেডিকেল একটি আধুনিক ও সুসজ্জিত চিকিৎসা কেন্দ্র যেখানে রোগীদের সর্বোচ্চ মানের সেবা প্রদান করা হয়। আমরা সর্বদা নিশ্চিত করি যে প্রতিটি রোগী পান সঠিক চিকিৎসা, যত্ন ও পরামর্শ। আমাদের বিশেষজ্ঞ চিকিৎসক ও অভিজ্ঞ স্বাস্থ্যকর্মীদের দল সর্বদা প্রস্তুত আপনাকে সর্বোত্তম সেবা দিতে।
+					</p>
+					
+				</div>
+				<!-- Image second on mobile -->
+				<div class="info-image col-12 col-md-6 me-auto order-2 order-md-1">
+					<img src="../Images/Fotolia_50167220_Subscription_Monthly_M_0oCf6qI.webp" alt="info-image" class="img-fluid rounded-2 shadow" style="width: 546px; height: 364px; vertical-align: middle; overflow-clip-margin: content-box; overflow: clip;">
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -101,23 +122,8 @@
                 <ul class="splide__list">
                     <li class="splide__slide">
                         <div class="product-card">
-                            <img src="0313861_deer-rider_300.jpeg" alt="Deer Rider">
-                            <h3>Deer Rider</h3>
-                            <p class="text-warning">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i> (122 reviews)
-                            </p>
-                            <p class="product-price">Tk 280 <del>Tk 350</del></p>
-                            
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="product-card">
-                            <img src="0313861_deer-rider_300.jpeg" alt="Deer Rider">
-                            <h3>Deer Rider</h3>
+                            <img src="../Images/pngtree-drug-capsule-pill-from-prescription-in-drugstore-pharmacy-for-treatment-health-png-image_15366552.png" alt="Deer Rider">
+                            <h3>Medicine One</h3>
                             <p class="text-warning">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -128,11 +134,10 @@
                             <p class="product-price">Tk 280 <del>Tk 350</del></p>
                         </div>
                     </li>
-                    
                     <li class="splide__slide">
                         <div class="product-card">
-                            <img src="0313861_deer-rider_300.jpeg" alt="Deer Rider">
-                            <h3>Deer Rider</h3>
+                            <img src="../Images/medicine-836x547-1.jpeg" alt="Deer Rider">
+                            <h3>Medicine Two</h3>
                             <p class="text-warning">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -140,7 +145,21 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i> (122 reviews)
                             </p>
-                            <p class="product-price">Tk 280 <del>Tk 350</del></p>
+                            <p class="product-price">Tk 480 <del>Tk 450</del></p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="product-card">
+                            <img src="../Images/medicine-3d-icon-png.webp" alt="Deer Rider">
+                            <h3>Medicine Three</h3>
+                            <p class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i> (122 reviews)
+                            </p>
+                            <p class="product-price">Tk 580 <del>Tk 450</del></p>
                         </div>
                     </li>
                 </ul>
@@ -167,7 +186,6 @@
     </script>
 
 
-    
 
 
 
@@ -176,21 +194,90 @@
 
 
 
-
-
+	<div class="container mb-5">
+		<div class="row justify-content-center mt-5">
+			<h2 class="text-center lead-text fw-bolder"  style="color: #6a2364;">আস্থা মেডিকেল</h2>
+		</div>
+		
+		<div class="row">
+			<!-- Image Section -->
+			<div class="col-md-6 order-md-2 d-flex align-items-center mt-3">
+				<div class="info-image">
+					<img class="../Images/img-fluid rounded-2" src="../Images/Fotolia_50167220_Subscription_Monthly_M_0oCf6qI.webp" alt="info-image" style="max-height: 380px; object-fit: cover;">
+				</div>
+			</div>
 	
+			<!-- Accordion Section -->
+			<div class="col-md-6 order-md-1 d-flex align-items-center">
+				<div class="w-100 mt-2">
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color:#6a2364;">
+									আস্থা মেডিকেল কোথায় অবস্থিত?
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwo">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="color:#6a2364;">
+									আস্থা মেডিকেলে কোন ধরনের চিকিৎসা সেবা পাওয়া যায়?
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+								
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingThree">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="color:#6a2364;">
+									কিভাবে ডাক্তারদের অ্যাপয়েন্টমেন্ট নেওয়া যায়?
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									
+								</div>
+							</div>
+						</div>
+					
+						
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFour">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="color:#6a2364;">
+									কি ধরনের স্বাস্থ্য পরীক্ষা প্যাকেজ পাওয়া যায়?
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									
+								</div>
+							</div>
+						</div>
+					</div>   
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
 
 
 <!-- Footer Section -->
-<footer class="text-white pt-4 pb-2 mt-5" style="background-color: #6a2364;">
+<footer class="text-white pt-4 pb-2" style="background-color: #6a2364;">
     <div class="container">
         <div class="row">
             <!-- Logo & About Us -->
             <div class="col-md-4">
-                <img src="logo1.png" alt="আস্থা মেডিকেল লোগো" height="60" class="mb-2">
+                <img src="../Images/logo1.png" alt="আস্থা মেডিকেল লোগো" height="60" class="mb-2">
                 <h5 class="fw-bold">আস্থা মেডিকেল</h5>
                 <p>আপনার বিশ্বস্ত চিকিৎসা সেবার কেন্দ্র, যেখানে সর্বোচ্চ মানের সেবা প্রদান করা হয়।</p>
             </div>
